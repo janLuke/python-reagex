@@ -35,7 +35,7 @@ Overview
 
 .. |version| image:: https://img.shields.io/pypi/v/reagex.svg
     :alt: PyPI Package latest release
-    :target: https://pypi.python.org/pypi/reagex
+    :target: https://pypi.org/project/reagex/
 
 .. |commits-since| image:: https://img.shields.io/github/commits-since/janluke/python-reagex/v0.1.0.svg
     :alt: Commits since latest release
@@ -43,15 +43,15 @@ Overview
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/reagex.svg
     :alt: PyPI Wheel
-    :target: https://pypi.python.org/pypi/reagex
+    :target: https://pypi.org/project/reagex/
 
 .. |supported-versions| image:: https://img.shields.io/pypi/pyversions/reagex.svg
     :alt: Supported versions
-    :target: https://pypi.python.org/pypi/reagex
+    :target: https://pypi.org/project/reagex/
 
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/reagex.svg
     :alt: Supported implementations
-    :target: https://pypi.python.org/pypi/reagex
+    :target: https://pypi.org/project/reagex/
 
 .. end-badges
 
