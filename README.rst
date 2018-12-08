@@ -75,8 +75,9 @@ which is obviously an overkill for a "one-function-project".
 Usage
 =====
 The core function ``reagex`` is just a wrapper of ``str.format`` and it works
-in the same way. See the example::
+in the same way. See the example
 
+.. code-block:: python
 
     import re
     from reagex import reagex
@@ -116,15 +117,15 @@ Why not using just re.VERBOSE?
 ------------------------------
 I think ``reagex`` is easier to write and to read:
 
-    * with reagex, you first describe the structure of the pattern in terms of groups,
-      `then` you provide a pattern for each group;
-      with re.VERBOSE you have to define the groups in the exact position they
-      must be matched: to get the high-level structure of the pattern you may need
-      to read multiple lines at the same indentation level
-    * with re.VERBOSE you just write a big string; with reagex you get
-      syntax highlighting which helps readability
-    * white-spaces don't need any special treatment
-    * "{group_name}" is nicer than "(?P<group_name>)"
+* with reagex, you first describe the structure of the pattern in terms of groups,
+  `then` you provide a pattern for each group;
+  with re.VERBOSE you have to define the groups in the exact position they
+  must be matched: to get the high-level structure of the pattern you may need
+  to read multiple lines at the same indentation level
+* with re.VERBOSE you just write a big string; with reagex you get
+  syntax highlighting which helps readability
+* white-spaces don't need any special treatment
+* "{group_name}" is nicer than "(?P<group_name>)"
 
 
 Installation
@@ -144,11 +145,11 @@ Development
 ===========
 Possible improvements:
 
-    1. make some meaningful use of the ``format_spec``
-       in ``{group_name:format_spec}``
+1. make some meaningful use of the ``format_spec``
+   in ``{group_name:format_spec}``
 
-    2. add utility functions like ``repeated`` to help writing
-       common patterns in a readable way
+2. add utility functions like ``repeated`` to help writing
+   common patterns in a readable way
 
 
 Testing
