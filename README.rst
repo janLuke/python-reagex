@@ -21,9 +21,9 @@ Overview
     :alt: Documentation Status
 
 
-.. |travis| image:: https://travis-ci.org/janluke/python-reagex.svg?branch=master
+.. |travis| image:: https://travis-ci.org/janLuke/python-reagex.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/janluke/python-reagex
+    :target: https://travis-ci.org/janLuke/python-reagex
 
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/janluke/python-reagex?branch=master&svg=true
     :alt: AppVeyor Build Status
