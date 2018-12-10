@@ -13,7 +13,9 @@ Overview
       - | |travis| |appveyor|
         | |codecov|
     * - package
-      - | |version| |wheel| |supported-versions| |supported-implementations|
+      - | |version| |wheel|
+        | |supported-versions|
+        | |supported-implementations|
         | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/python-reagex/badge/?style=flat

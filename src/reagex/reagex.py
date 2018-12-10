@@ -44,12 +44,13 @@ def reagex(pattern, **group_patterns):
 
 def repeated(pattern, sep, least=1, most=None):
     """
-    Returns a pattern matching a sequence of string matching ``pattern`` separated by strings
-    matching ``sep`` (``sep`` is usually just a character/string but can be any pattern).
+    Returns a pattern that matches a sequence of strings that match ``pattern`` separated by strings
+    that match ``sep``.
 
-    Example::
+    For example, for matching a sequence of ``'{key}={value}'`` pairs separated by ``'&'``, where
+    key and value contains only lowercase letters::
 
-        repeated('[a-z]+', sep='#', least=3, most=4) == '[a-z]+(?:#[a-z]+){2,3}'
+        repeated('[a-z]+=[a-z]+', '&') == '[a-z]+=[a-z]+(?:&[a-z]+=[a-z]+)*'
 
     Args:
         pattern (str):
@@ -59,7 +60,7 @@ def repeated(pattern, sep, least=1, most=None):
         least (int, positive):
             minimum number of strings matching ``pattern``; must be positive
         most (Optional[int]):
-            maximum number of strings matching ``pattern``; must be greater than ``least``
+            maximum number of strings matching ``pattern``; must be greater or equal to ``least``
 
     Returns:
         a pattern
