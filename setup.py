@@ -20,7 +20,7 @@ def read(*names, **kwargs):
 
 setup(
     name='reagex',
-    version='0.1.0',
+    version='0.1.1',
     license='BSD 2-Clause License',
     description='Utility functions for writing readable regular expressions in a hierarchical way',
     long_description='%s\n%s' % (
