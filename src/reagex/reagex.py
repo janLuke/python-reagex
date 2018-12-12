@@ -9,9 +9,9 @@ def reagex(pattern, **group_patterns):
 
         pattern = reagex(
             '{name} "{nickname}" {surname}',
-            name=[A-Z][a-z]+,
-            nickname=[a-z]+,
-            surname=[A-Z][a-z]+
+            name='[A-Z][a-z]+',
+            nickname='[a-z]+',
+            surname='[A-Z][a-z]+'
         )
 
     Args:
