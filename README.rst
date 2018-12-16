@@ -90,7 +90,7 @@ in the same way. See the example
         # groups starting with "_" are non-capturing
         _address = reagex(
             '{street} {number}',
-            street = '(via|contrada|c/da|c.da|piazza|p.za) [a-zA-Z]+',
+            street = '(via|contrada|c/da|c[.]da|piazza|p[.]za|p[.]zza) [a-zA-Z]+',
             number = 'snc|[0-9]+'
         ),
         postcode = '[0-9]{5}',
