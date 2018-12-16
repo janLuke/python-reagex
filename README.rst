@@ -39,9 +39,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.org/project/reagex/
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/janluke/python-reagex/v0.1.1.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/janluke/python-reagex/v0.1.2.svg
     :alt: Commits since latest release
-    :target: https://github.com/janluke/python-reagex/compare/v0.1.1...master
+    :target: https://github.com/janluke/python-reagex/compare/v0.1.2...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/reagex.svg
     :alt: PyPI Wheel
