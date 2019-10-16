@@ -63,14 +63,17 @@ is to suggest a way for writing complex regular expressions with
 many capturing groups in a readable way.
 
 At the moment, it contains just one very simple function
-(called ``reagex``) and an utility function, but any function
+(called ``reagex``) plus an utility function, but any function
 which could be useful for writing readable patterns is welcome.
 
-**Note:** Publishing this ridiculously small project is an excuse to familiarize
+**Note:** Publishing this ridiculously small project was an excuse to familiarize
 with python packaging, DevOps tools and the entire workflow behind the publication
-of an open-source project.
-The project template was generated using https://github.com/ionelmc/cookiecutter-pylibrary/
-which is obviously an overkill for a "one-function-project".
+of an open-source project. The project was generated using https://github.com/ionelmc/cookiecutter-pylibrary/
+
+Consider to use https://github.com/r1chardj0n3s/parse instead.
+I think reagex, in its simplicity, is less verbose in case most 
+of the groups you want to capture need custom regex not provided
+by parse out of the box.
 
 * Free software: BSD 2-Clause License
 
@@ -84,7 +87,7 @@ in the same way. See the example
     import re
     from reagex import reagex
 
-    # A sloppy pattern for an italian address (just to show how it works)
+    # A sloppy pattern for an italian address (yeah, pretty bad example)
     pattern = reagex(
         '{_address}, {postcode} {city} {province}',
         # groups starting with "_" are non-capturing
