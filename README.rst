@@ -22,10 +22,9 @@ Overview
     :target: https://readthedocs.org/projects/python-reagex
     :alt: Documentation Status
 
-
 .. |travis| image:: https://travis-ci.org/janLuke/python-reagex.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/janLuke/python-reagex
+    :target: https://travis-ci.com/github/janLuke/python-reagex
 
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/janluke/python-reagex?branch=master&svg=true
     :alt: AppVeyor Build Status
@@ -71,7 +70,7 @@ with python packaging, DevOps tools and the entire workflow behind the publicati
 of an open-source project. The project was generated using https://github.com/ionelmc/cookiecutter-pylibrary/
 
 Consider to use https://github.com/r1chardj0n3s/parse instead.
-I think reagex, in its simplicity, is less verbose in case most 
+I think reagex, in its simplicity, is less verbose in case most
 of the groups you want to capture need custom regex not provided
 by parse out of the box.
 
