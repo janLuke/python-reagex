@@ -26,10 +26,6 @@ Overview
     :alt: Travis-CI Build Status
     :target: https://travis-ci.com/github/janLuke/python-reagex
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/janluke/python-reagex?branch=master&svg=true
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/janluke/python-reagex
-
 .. |codecov| image:: https://codecov.io/github/janluke/python-reagex/coverage.svg?branch=master
     :alt: Coverage Status
     :target: https://codecov.io/github/janluke/python-reagex
