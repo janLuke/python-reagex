@@ -10,13 +10,12 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor|
-        | |codecov|
+      - | |travis| |codecov|
     * - package
-      - | |version| |wheel|
+      - | |version| |supported-implementations|
         | |supported-versions|
-        | |supported-implementations|
-        | |commits-since|
+    * - stats
+      - | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/python-reagex/badge/?style=flat
     :target: https://readthedocs.org/projects/python-reagex
@@ -37,10 +36,6 @@ Overview
 .. |commits-since| image:: https://img.shields.io/github/commits-since/janluke/python-reagex/v0.1.2.svg
     :alt: Commits since latest release
     :target: https://github.com/janluke/python-reagex/compare/v0.1.2...master
-
-.. |wheel| image:: https://img.shields.io/pypi/wheel/reagex.svg
-    :alt: PyPI Wheel
-    :target: https://pypi.org/project/reagex/
 
 .. |supported-versions| image:: https://img.shields.io/pypi/pyversions/reagex.svg
     :alt: Supported versions
